@@ -28,13 +28,28 @@ body{
     color:#F0F8FF;
     background-color: #8FBC8F;
 }
-.address{
+@media(min-width: 540px)
+{.address{
     font-size: 80%;
-    text-align:center;
-}
+    margin-left: 20%;
+}}
 .navbar{
     background-color: #98FB98;
 }
 .Copyright{
     background-color: #404040;
 }
+.address{
+    font-size: 80%;
+}
+@media(max-width:740px){
+    #social li{
+        float: left;
+        padding: 0px 0px 20px 20px
+    }
+}
+@media(min-width:540px){
+    .address{
+    font-size: 80%;
+    margin-left:20%;
+}}
