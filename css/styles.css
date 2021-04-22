@@ -1,8 +1,8 @@
 .header{
-	background-color: #8FBC8F;
+	background-color:#e6faff;
 	margin: 0px auto;
 	padding: 0px;
-	color: #F0F8FF;
+	color: #333300;
 
 }
 .footer{
@@ -26,19 +26,19 @@
     min-height:400px;
 }
 .side{
-	color:#F0F8FF;
-	background-color: #8FBC8F;
+	color:#333300;
+	background-color:#d9f7ff;
 }
 @media(min-width:540px){
 	.address{
 	font-size: 80%;
-
+	margin-left:20%;
 }}
 body{
 	padding: 50px 0px 0px 0px;
 }
 .navbar{
-    background-color: #98FB98;
+    background-color:#d9f7ff;
 }
 .Copyright{
 	background-color: #404040;
